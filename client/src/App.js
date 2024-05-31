@@ -1,3 +1,4 @@
+import PostCreate from "./post-create/PostCreate";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,10 @@ function App() {
           Blog App
         </a>
       </header>
+      <div className="container">
+        <h1>Create Post</h1>
+        <PostCreate />
+      </div>
     </div>
   );
 }
