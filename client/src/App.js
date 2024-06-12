@@ -1,19 +1,18 @@
 import PostCreate from "./post-create/PostCreate";
 import "./App.css";
+import PostList from "./post-list/PostList";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="App-link">Blog App</h1>
-        <div className="row">
-          <div className="container col">
-            <h1>Create Post</h1>
-            <PostCreate />
-          </div>
-          <div className="container col">
-            <h1>Posts</h1>
-          </div>
+        <div className="container">
+          <h1>Create Post</h1>
+          <PostCreate />
+          <hr />
+          <h1>Posts</h1>
+          <PostList />
         </div>
       </header>
       <footer className="App-footer">
