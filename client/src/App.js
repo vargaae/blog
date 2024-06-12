@@ -1,6 +1,7 @@
 import PostCreate from "./post-create/PostCreate";
-import "./App.css";
 import PostList from "./post-list/PostList";
+
+import "./App.css";
 
 function App() {
   return (
